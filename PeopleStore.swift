@@ -19,7 +19,7 @@ class PeopleStore {
     var sampleEmails = ["coolguy32@gmail.com","robotman@aol.com","secretagent@yahoo.com","burgers4everyone@hotmail.com","hawtlady39@gmail.com","thegif@haha.com","lastoneout@company.com","randomperson@linkedin.com"]
     
     init() {
-        for _ in 1...15 {
+        for _ in 1...20 {
             allPeople.append(createRandomPerson())
         }
     }

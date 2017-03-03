@@ -292,7 +292,7 @@
         <scene sceneID="5CN-X8-viC">
             <objects>
                 <navigationController id="kej-2E-qhV" userLabel="People Nav" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="People" id="ZHm-n8-Z6b"/>
+                    <tabBarItem key="tabBarItem" title="People" image="People" id="ZHm-n8-Z6b"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="akU-Ar-Sws">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -358,7 +358,7 @@
         <scene sceneID="2O2-xf-Dxz">
             <objects>
                 <navigationController id="22W-px-YBR" userLabel="Activities Nav" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Activities" id="dVr-N7-cTO"/>
+                    <tabBarItem key="tabBarItem" title="Activities" image="Activities" id="dVr-N7-cTO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hu3-mU-bEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -372,4 +372,8 @@
             <point key="canvasLocation" x="108" y="-648"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Activities" width="25" height="25"/>
+        <image name="People" width="25" height="25"/>
+    </resources>
 </document>

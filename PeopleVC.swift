@@ -31,5 +31,7 @@ class PeopleVC: UIViewController, UICollectionViewDelegate {
         peopleStore = PeopleStore()
         peopleCollectionView.dataSource = peopleDataSource
         peopleDataSource.people = peopleStore.allPeople
+        
+        self.navigationItem.title = "Nearby People"
     }
 }

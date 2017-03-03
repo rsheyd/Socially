@@ -29,6 +29,7 @@ class ActivitiesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
         let newActivityButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(presentNewActivityVC))
         
         self.navigationItem.rightBarButtonItem = newActivityButton
+        self.navigationItem.title = "Nearby Activities"
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
